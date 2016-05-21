@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'OS X Terminal für 1e'
+tagline:          'n+d'
+description:      'Eine Einführung'
+url:              http://ict-imlee.github.io
+baseurl:          /
+
+author:
+  name:           'Nicolas Degen'
+  url:            https://github.com/nidegen
+
+gems:
+  - jekyll-paginate
+  - redcarpet
+  - jekyll-gist
+  - pygments.rb
+
+#paginate:         2
+
+include: ['_pages']

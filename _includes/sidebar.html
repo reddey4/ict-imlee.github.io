@@ -1,0 +1,43 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about-nd">
+      <h1>
+        <img src="/assets/logo.gif" alt="Le me">
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      {% comment %}
+      originally had:
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      {% endcomment %}
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages | sort:"order" %}
+      {% for node in pages_list %}
+        {% if node.title != null and node.visible != 0 and node.layout == "page" and node.is_subsite != 1%}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% for subnode in pages_list %}
+            {% if subnode.title != null and subnode.visible != 0 and subnode.layout == "page" and subnode.parent == node.title%}
+              <a class="sidebar-nav-subitem{% if page.url == node.url %} active{% endif %}" href="{{ subnode.url }}"> &nbsp; {{subnode.order}} - {{ subnode.title }}</a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+    <p> viel Spass! </p>
+
+
+    <p>&copy; {{ site.time | date: '%Y' }} ND. All rights reserved.</p>
+  </div>
+</div>
