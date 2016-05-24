@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Übungen
-order: 1
+order: 6
 is_subsite: 0
 ---
 

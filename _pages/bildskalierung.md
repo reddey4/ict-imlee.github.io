@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bilder gruppenweise Skalieren
-order: 4
+order: 5
 is_subsite: 1
 parent: Übungen
 ---

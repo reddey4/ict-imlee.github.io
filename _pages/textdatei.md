@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Wichtigste Befehle
-order: 2
+title: Texteditor
+order: 3
 is_subsite: 1
 parent: Übungen
 ---
@@ -13,19 +13,8 @@ parent: Übungen
 
 ###### `$ ls`
 Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
-
 ###### `$ cd <ordnerpfad>`
 <dateipfad> Ordner wechseln
-
-###### `nano <dateipfad>`
-
-öffnet einen einfachen Texteditor im Terminal.
-
-###### `man <befehl>`
-
-Öffnet ein Benutzerhandbuch des Befehles, falls vorhanden.
-
-nano ist ein einfacher texteditor.
 
 
 

@@ -13,4 +13,4 @@ order: 0
 
 Was ist der Terminal?
 
- [Einführung]({{ site.baseurl }}/einfuehrung) or some of the subtabs.
+ [Einführung](/einfuehrung) or some of the subtabs.
