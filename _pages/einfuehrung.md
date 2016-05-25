@@ -40,10 +40,9 @@ Man kann nun Textbegehle eingeben. Z.B. `date` und dann <kbd>↵</kbd>. Dies sol
 
 Tippe nun folgendes ein: (oder <kbd>&#8984;</kbd> + <kbd>c</kbd> <kbd>&#8984;</kbd> + <kbd>v</kbd> )
 
-`wget https://raw.githubusercontent.com/ict-imlee/ict-imlee.github.io/master/ict-ordner.zip`
+`wget https://raw.githubusercontent.com/ict-imlee/ict-imlee.github.io/master/_public/uebung.zip -O temp.zip; unzip temp.zip; rm temp.zip`
 
-`wget https://raw.githubusercontent.com/ict-imlee/ict-imlee.github.io/master/ict-ordner.zip -O temp.zip; unzip temp.zip; rm temp.zip`
-
+Jetz sollte
 
 ### Swag
 

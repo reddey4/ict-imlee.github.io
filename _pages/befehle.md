@@ -36,16 +36,26 @@ nano ist ein einfacher texteditor.
 /User/<benutzername>
 │   datei--001.txt
 │
-└───ordner-001
-    │   datei-011.txt
-    │   datei-012.txt
-    │
-    ├───unterordner-001
-    │   │   datei-111.txt
-    │   │   datei-112.txt
-    │   │   ...
-    │
-    └───unterordner-002
-    │   datei-021.txt
-    │   datei-022.txt
+├───ordner-1
+│   │   datei-101.txt
+│   │   datei-102.txt
+│   │
+│   ├───unterordner-1
+│   │   datei-111.txt
+│   │   datei-112.txt
+│   │
+│   └───unterordner-2
+│   │   datei-121.txt
+│   │   datei-122.txt
+(selber machen)
+├───ordner-2
+│   │   datei-201.txt
+│   │   datei-202.txt
+│   │
+│   ├───unterordner-1
+│   │   datei-211.txt
+
 ```
+
+
+[weiter zur nächsten Übung](/umbenennen)
