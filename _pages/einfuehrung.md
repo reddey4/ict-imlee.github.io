@@ -38,14 +38,15 @@ Man kann nun Textbegehle eingeben. Z.B. `date` und dann <kbd>↵</kbd>. Dies sol
 
 ### Einrichtung Übungsordner
 
-Tippe nun folgendes ein: (oder <kbd>&#8984;</kbd> + <kbd>c</kbd> <kbd>&#8984;</kbd> + <kbd>v</kbd> )
+Tippe nun folgendes ein: (oder kopiere z.B. mit <kbd>&#8984;</kbd> + <kbd>c</kbd> <kbd>&#8984;</kbd> + <kbd>v</kbd> )
 
-`wget https://raw.githubusercontent.com/ict-imlee/ict-imlee.github.io/master/_public/uebung.zip -O temp.zip; unzip temp.zip; rm temp.zip`
+`cd ~; wget https://raw.githubusercontent.com/ict-imlee/ict-imlee.github.io/master/_public/uebungen.zip -O temp.zip; unzip temp.zip; rm temp.zip; rm -r __MACOSX/`
 
-Jetz sollte
+Jetz sollte der Ordner 'uebung' im Ordner '~' liegen. Dieser Ordner wird im Finder mit dem Benutzername bezeichnet und hat ein Haus als Icon.
 
-### Swag
 
-Drücke <kbd>&#8984;</kbd> + <kbd>,</kbd> und wähle unter Profile 'Homebrew' aus. Oder irgend ein anderes statt das normale:)
+### Hacker-Swag
+
+Drücke <kbd>&#8984;</kbd> + <kbd>,</kbd> und wähle das Profil 'Homebrew' aus. Oder irgend ein anderes statt das normale:)
 
 [weiter zur nächsten Übung](/befehle)

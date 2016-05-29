@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wichtigste Befehle
+title:Befehle für Dateien und Ordner
 order: 2
 is_subsite: 1
 parent: Übungen
@@ -9,53 +9,45 @@ parent: Übungen
 
 ## Die wichtigsten Befehle
 
-
+###### `$ pwd`
+Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
 
 ###### `$ ls`
 Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
 
+###### `$ echo <text>`
+Zeigt den Text <text> im Terminal an.
+
 ###### `$ cd <ordnerpfad>`
 <dateipfad> Ordner wechseln
 
-###### `nano <dateipfad>`
+###### `$ mkdir <ordnername>`
+Erstellt einen Ordner mit Name <ordnername> im aktuellen Ordner
 
-öffnet einen einfachen Texteditor im Terminal.
+###### `$ touch <dateiname>`
+Erstellt eine leere Datei mit Name <dateiname> im aktuellen Ordner
 
-###### `man <befehl>`
+###### `$ rm <dateiname>`
+Löscht die Datei mit Name <dateiname> im aktuellen Ordner
 
-Öffnet ein Benutzerhandbuch des Befehles, falls vorhanden.
+###### `$ rm -r <ordnername>`
+Löscht den Ordner mit Name <ordnername> im aktuellen Ordner
 
+###### `$ nano <dateipfad>`
+Öffnet die Datei <dateipfad> in einem einfachen Texteditor im Terminal.
 nano ist ein einfacher texteditor.
 
+###### `$ man <befehl>`
+Öffnet ein Benutzerhandbuch des Befehles, falls vorhanden.
+
+
+##### Relative Datipfade
+
+Statt vollständige Ordnerpfade anzugeben kann man auch relative Dateipfade angeben. Diese Beziehen sich immer auf den aktuellen Dateipfad.
+
+* `..` kann als Platzhalter für den übergeordneten Ordner benutzt werden. Wenn der aktuelle Ordner z.B. ~/Desktop/ ist, dann ist `..` der Ordner `~`.
+* `.` steht für den aktuellen Dateipfad
 
 
 
-
-## Aufgabe: Stelle eine Ordnerstruktur wie folgt her:
-```
-/User/<benutzername>
-│   datei--001.txt
-│
-├───ordner-1
-│   │   datei-101.txt
-│   │   datei-102.txt
-│   │
-│   ├───unterordner-1
-│   │   datei-111.txt
-│   │   datei-112.txt
-│   │
-│   └───unterordner-2
-│   │   datei-121.txt
-│   │   datei-122.txt
-(selber machen)
-├───ordner-2
-│   │   datei-201.txt
-│   │   datei-202.txt
-│   │
-│   ├───unterordner-1
-│   │   datei-211.txt
-
-```
-
-
-[weiter zur nächsten Übung](/umbenennen)
+[weiter zu Übungungen](/uebungen)
