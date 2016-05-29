@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Dateien effizient umbenennen
-order: 4
+order: 5
 is_subsite: 1
-parent: Übungen
+parent: Aufgaben
 ---
 <body class="theme-base-0d">
-Laden Sie die Daten...

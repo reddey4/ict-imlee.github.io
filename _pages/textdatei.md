@@ -3,38 +3,29 @@ layout: page
 title: Texteditor
 order: 3
 is_subsite: 1
-parent: Übungen
+parent: Aufgaben
 ---
 <body class="theme-base-0d">
 
-## Die wichtigsten Befehle
+## Texteditor nano
+
+Um vom Terminal aus Dateien zu bearbeiten zu können gibt es den Editor 'nano'.
+Er ist praktisch, um schnell Textdateien zu bearbeiten. Mit
+
+`nano testdatei.txt`
+
+öffnet nano im Aktuellen Ordner die Datei `testdatei.txt`. Falls Sie noch nicht existiert wird sie neu erstellt.
+
+Man kann im Editor normal die Pfeiltasten brauchen, um den Cursor zu navigieren und den Text zu bearbeiten. Um zu speichern und zu beenden braucht es spezielle Tastenkürzel:
+* <kbd>ctrl</kbd> + <kbd>O</kbd> speichert die Datei
+* <kbd>ctrl</kbd> + <kbd>X</kbd> beendet nano
+
+Hinweis: <kbd>ctrl</kbd> wird häufig mit dem Zeichen ^ dargestellt. `^X` ist also das gleiche wie <kbd>ctrl</kbd> + <kbd>X</kbd> zu druücken.
+
+## Übung zu nano
+
+mache eine neue Textdatei auf, speichere Sie, schliesse und öffne es wieder.
 
 
 
-###### `$ ls`
-Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
-###### `$ cd <ordnerpfad>`
-<dateipfad> Ordner wechseln
-
-
-
-
-
-## Aufgabe: Stelle eine Ordnerstruktur wie folgt her:
-```
-/User/<benutzername>
-│   datei--001.txt
-│
-└───ordner-001
-    │   datei-011.txt
-    │   datei-012.txt
-    │
-    ├───unterordner-001
-    │   │   datei-111.txt
-    │   │   datei-112.txt
-    │   │   ...
-    │
-    └───unterordner-002
-    │   datei-021.txt
-    │   datei-022.txt
-```
+[weiter zu Übungen](/uebungen)

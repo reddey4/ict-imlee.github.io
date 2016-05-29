@@ -3,9 +3,10 @@ layout: page
 title: Einführung in den OS X Terminal
 order: 1
 is_subsite: 1
-parent: Übungen
+parent: Aufgaben
 ---
 <body class="theme-base-0d">
+
 ## Was ist das Terminal?
 
 Das Terminal ist ein Programm auf Mac OS X das die steurung des Computers über Textbefehle statt über Eingaben der Computermaus erlaubt.

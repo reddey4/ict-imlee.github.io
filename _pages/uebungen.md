@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Übungen
-order: 6
-is_subsite: 0
+title: Übungsaufgaben
+order: 4
+is_subsite: 1
+parent: Aufgaben
 ---
 
 ## Übungsbeispiele (Lösungen am Seitenende)
@@ -50,9 +51,7 @@ Verändere die bestehende Ordnerstruktur wie folgt, indem du Dateien/Ordner lös
 │   │   datei-211.txt
 
 ```
-
-<!--  TODO(nidegen) Make folder hidden and add script to check and send username to me..-->
-
+Sobald du fertig bist, gib in den Terminal `~/uebungen/check` ein und folge den Answeisungen.
 
 [weiter zur nächsten Übung](/umbenennen)
 
@@ -60,3 +59,11 @@ Verändere die bestehende Ordnerstruktur wie folgt, indem du Dateien/Ordner lös
 ## Lösungen
 
 * In den Ordner Applications wechseln: `cd /Applications`
+* Inhalt anschauen: `ls`
+* Freiwillige Aufgabe: Beim Lehrer melden!
+* Gehe aus dem Ordner raus in den übergeordneten Ordner: `cd ..`
+* Wechsle in den Ordner: `cd ~/Desktop`
+* Überprüfe Pfad: `pwd`
+* Erstelle Ordner: `mkdir test` oder `mkdir ~/test`
+* Erstellen und bearbeiten: `nano testfile`
+* Navigiere nun von deinem aktuellen Ordner (hoffentlich immer noch `~/test`) zum Order `~Downloads`. Dies mit einer einzigen Eingabe bitte!

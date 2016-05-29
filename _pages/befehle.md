@@ -1,13 +1,15 @@
 ---
 layout: page
-title:Befehle für Dateien und Ordner
+title: Befehle für Dateien und Ordner
 order: 2
 is_subsite: 1
-parent: Übungen
+parent: Aufgaben
 ---
 <body class="theme-base-0d">
 
 ## Die wichtigsten Befehle
+
+Um die Aufgaben lösen zu können braucht ihr folgende Befehle. Lest diese Bitte gut durch und stellt Fragen wenn etwas nicht ganz Klar ist.
 
 ###### `$ pwd`
 Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
@@ -33,12 +35,15 @@ Löscht die Datei mit Name <dateiname> im aktuellen Ordner
 ###### `$ rm -r <ordnername>`
 Löscht den Ordner mit Name <ordnername> im aktuellen Ordner
 
-###### `$ nano <dateipfad>`
-Öffnet die Datei <dateipfad> in einem einfachen Texteditor im Terminal.
-nano ist ein einfacher texteditor.
+###### `$ mv <alter dateipfad> <neuer dateipfad>`
+Verschiebt die Datei am Ort <alter dateipfad> an den Ort <neuer dateipfad>
 
 ###### `$ man <befehl>`
 Öffnet ein Benutzerhandbuch des Befehles, falls vorhanden.
+
+###### Allgemeine Tastenkombinationen
+* <kbd>ctrl</kbd> + <kbd>C</kbd>  bricht eine Anwendung im Terminal ab
+* <kbd>Q</kbd> oft nützlich um aus Anwendung zu Beenden
 
 
 ##### Relative Datipfade
@@ -50,4 +55,4 @@ Statt vollständige Ordnerpfade anzugeben kann man auch relative Dateipfade ange
 
 
 
-[weiter zu Übungungen](/uebungen)
+[weiter zu Texteditor](/textdatei)
