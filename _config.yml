@@ -25,3 +25,6 @@ gems:
 #paginate:         2
 
 include: ['_pages']
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

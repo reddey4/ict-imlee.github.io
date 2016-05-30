@@ -11,7 +11,7 @@
 
   <title>
     
-      Wichtigste Befehle &middot; OS X Terminal für 1e
+      Befehle für Dateien und Ordner &middot; OS X Terminal für 1e
     
   </title>
 
@@ -81,20 +81,14 @@
           
             
           
+            
+          
         
       
         
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          <a class="sidebar-nav-item" href="/_pages/uebungen/">Übungen</a>
+          <a class="sidebar-nav-item" href="/_pages/aufgaben/">Aufgaben</a>
+          
+            
           
             
           
@@ -107,7 +101,7 @@
             
           
             
-              <a class="sidebar-nav-subitem" href="/_pages/befehle/"> &nbsp; 2 - Wichtigste Befehle</a>
+              <a class="sidebar-nav-subitem" href="/_pages/befehle/"> &nbsp; 2 - Befehle für Dateien und Ordner</a>
             
           
             
@@ -115,7 +109,7 @@
             
           
             
-              <a class="sidebar-nav-subitem" href="/_pages/umbenennen/"> &nbsp; 4 - Dateien effizient umbenennen</a>
+              <a class="sidebar-nav-subitem" href="/_pages/uebungen/"> &nbsp; 4 - Übungsaufgaben</a>
             
           
             
@@ -123,13 +117,29 @@
             
           
             
+              <a class="sidebar-nav-subitem" href="/_pages/umbenennen/"> &nbsp; 6 - Dateien effizient umbenennen</a>
+            
           
             
           
         
       
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
           <a class="sidebar-nav-item" href="/_pages/bonus/">Bonusaufgaben</a>
+          
+            
           
             
           
@@ -165,46 +175,71 @@
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Wichtigste Befehle</h1>
+  <h1 class="page-title">Befehle für Dateien und Ordner</h1>
   <p><body class="theme-base-0d"></p>
 
-<h2>Die wichtigsten Befehle</h2>
+<h2 id="die-wichtigsten-befehle">Die wichtigsten Befehle</h2>
 
-<h6><code>$ ls</code></h6>
+<p>Um die Aufgaben lösen zu können braucht ihr folgende Befehle. Lest diese Bitte gut durch und stellt Fragen wenn etwas nicht ganz Klar ist.</p>
+
+<h6 id="pwd"><code>$ pwd</code></h6>
 
 <p>Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.</p>
 
-<h6><code>$ cd &lt;ordnerpfad&gt;</code></h6>
+<h6 id="ls"><code>$ ls</code></h6>
+
+<p>Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.</p>
+
+<h6 id="echo-lt-text-gt"><code>$ echo &lt;text&gt;</code></h6>
+
+<p>Zeigt den Text <text> im Terminal an.</p>
+
+<h6 id="cd-lt-ordnerpfad-gt"><code>$ cd &lt;ordnerpfad&gt;</code></h6>
 
 <p><dateipfad> Ordner wechseln</p>
 
-<h6><code>nano &lt;dateipfad&gt;</code></h6>
+<h6 id="mkdir-lt-ordnername-gt"><code>$ mkdir &lt;ordnername&gt;</code></h6>
 
-<p>öffnet einen einfachen Texteditor im Terminal.</p>
+<p>Erstellt einen Ordner mit Name <ordnername> im aktuellen Ordner</p>
 
-<h6><code>man &lt;befehl&gt;</code></h6>
+<h6 id="touch-lt-dateiname-gt"><code>$ touch &lt;dateiname&gt;</code></h6>
+
+<p>Erstellt eine leere Datei mit Name <dateiname> im aktuellen Ordner</p>
+
+<h6 id="rm-lt-dateiname-gt"><code>$ rm &lt;dateiname&gt;</code></h6>
+
+<p>Löscht die Datei mit Name <dateiname> im aktuellen Ordner</p>
+
+<h6 id="rm-r-lt-ordnername-gt"><code>$ rm -r &lt;ordnername&gt;</code></h6>
+
+<p>Löscht den Ordner mit Name <ordnername> im aktuellen Ordner</p>
+
+<h6 id="mv-lt-alter-dateipfad-gt-lt-neuer-dateipfad-gt"><code>$ mv &lt;alter dateipfad&gt; &lt;neuer dateipfad&gt;</code></h6>
+
+<p>Verschiebt die Datei am Ort <alter dateipfad> an den Ort <neuer dateipfad></p>
+
+<h6 id="man-lt-befehl-gt"><code>$ man &lt;befehl&gt;</code></h6>
 
 <p>Öffnet ein Benutzerhandbuch des Befehles, falls vorhanden.</p>
 
-<p>nano ist ein einfacher texteditor.</p>
+<h6 id="allgemeine-tastenkombinationen">Allgemeine Tastenkombinationen</h6>
 
-<h2>Aufgabe: Stelle eine Ordnerstruktur wie folgt her:</h2>
-<div class="highlight"><pre><code class="language-text" data-lang="text">/User/&lt;benutzername&gt;
-│   datei--001.txt
-│
-└───ordner-001
-    │   datei-011.txt
-    │   datei-012.txt
-    │
-    ├───unterordner-001
-    │   │   datei-111.txt
-    │   │   datei-112.txt
-    │   │   ...
-    │
-    └───unterordner-002
-    │   datei-021.txt
-    │   datei-022.txt
-</code></pre></div>
+<ul>
+<li><kbd>ctrl</kbd> + <kbd>C</kbd>  bricht eine Anwendung im Terminal ab</li>
+<li><kbd>Q</kbd> oft nützlich um aus Anwendung zu Beenden</li>
+</ul>
+
+<h5 id="relative-datipfade">Relative Datipfade</h5>
+
+<p>Statt vollständige Ordnerpfade anzugeben kann man auch relative Dateipfade angeben. Diese Beziehen sich immer auf den aktuellen Dateipfad.</p>
+
+<ul>
+<li><code>..</code> kann als Platzhalter für den übergeordneten Ordner benutzt werden. Wenn der aktuelle Ordner z.B. ~/Desktop/ ist, dann ist <code>..</code> der Ordner <code>~</code>.</li>
+<li><code>.</code> steht für den aktuellen Dateipfad</li>
+</ul>
+
+<p><a href="/_pages/textdatei">weiter zur nächsten Seite</a></p>
+
 </div>
 
     </div>

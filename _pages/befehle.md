@@ -55,4 +55,4 @@ Statt vollständige Ordnerpfade anzugeben kann man auch relative Dateipfade ange
 
 
 
-[weiter zu Texteditor](/textdatei)
+[weiter zur nächsten Seite](/_pages/textdatei)

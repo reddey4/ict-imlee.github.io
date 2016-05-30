@@ -42,7 +42,7 @@ Verändere die bestehende Ordnerstruktur wie folgt, indem du Dateien/Ordner lös
 │   └───unterordner-2
 │   │   datei-121.txt
 │   │   datei-122.txt
-(selber machen)
+(Ab hier selber erstellen:)
 ├───ordner-2
 │   │   datei-201.txt
 │   │   datei-202.txt
@@ -53,7 +53,7 @@ Verändere die bestehende Ordnerstruktur wie folgt, indem du Dateien/Ordner lös
 ```
 Sobald du fertig bist, gib in den Terminal `~/uebungen/check` ein und folge den Answeisungen.
 
-[weiter zur nächsten Übung](/umbenennen)
+[weiter zur nächsten Seite](/_pages/bildskalierung)
 
 
 ## Lösungen

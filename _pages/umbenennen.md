@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dateien effizient umbenennen
-order: 5
+order: 6
 is_subsite: 1
 parent: Aufgaben
 ---

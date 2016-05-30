@@ -28,4 +28,4 @@ mache eine neue Textdatei auf, speichere Sie, schliesse und öffne es wieder.
 
 
 
-[weiter zu Übungen](/uebungen)
+[weiter zur nächsten Seite](/_pages/uebungen)

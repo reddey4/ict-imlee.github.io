@@ -41,7 +41,7 @@ Man kann nun Textbegehle eingeben. Z.B. `date` und dann <kbd>↵</kbd>. Dies sol
 
 Tippe nun folgendes ein: (oder kopiere z.B. mit <kbd>&#8984;</kbd> + <kbd>c</kbd> <kbd>&#8984;</kbd> + <kbd>v</kbd> )
 
-`wget http://ict-imlee.github.io/public/installer.sh; sh installer.sh`
+`curl -O http://ict-imlee.github.io/public/installer.sh; sh installer.sh`
 
 Jetz sollte der Ordner 'uebung' im Ordner '~' liegen. Dieser Ordner wird im Finder mit dem Benutzername bezeichnet und hat ein Haus als Icon.
 
@@ -50,4 +50,4 @@ Jetz sollte der Ordner 'uebung' im Ordner '~' liegen. Dieser Ordner wird im Find
 
 Drücke <kbd>&#8984;</kbd> + <kbd>,</kbd> und wähle das Profil 'Homebrew' aus. Oder irgend ein anderes statt das normale:)
 
-[weiter zur nächsten Übung](/befehle)
+[weiter zur nächsten Seite](/_pages/befehle)

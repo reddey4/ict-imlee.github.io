@@ -11,7 +11,7 @@
 
   <title>
     
-      Übungen &middot; OS X Terminal für 1e
+      Übungsaufgaben &middot; OS X Terminal für 1e
     
   </title>
 
@@ -81,6 +81,47 @@
           
             
           
+            
+          
+        
+      
+        
+          <a class="sidebar-nav-item" href="/_pages/aufgaben/">Aufgaben</a>
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a class="sidebar-nav-subitem" href="/_pages/einfuehrung/"> &nbsp; 1 - Einführung in den OS X Terminal</a>
+            
+          
+            
+              <a class="sidebar-nav-subitem" href="/_pages/befehle/"> &nbsp; 2 - Befehle für Dateien und Ordner</a>
+            
+          
+            
+              <a class="sidebar-nav-subitem" href="/_pages/textdatei/"> &nbsp; 3 - Texteditor</a>
+            
+          
+            
+              <a class="sidebar-nav-subitem" href="/_pages/uebungen/"> &nbsp; 4 - Übungsaufgaben</a>
+            
+          
+            
+              <a class="sidebar-nav-subitem" href="/_pages/bildskalierung/"> &nbsp; 5 - Bilder gruppenweise Skalieren</a>
+            
+          
+            
+              <a class="sidebar-nav-subitem" href="/_pages/umbenennen/"> &nbsp; 6 - Dateien effizient umbenennen</a>
+            
+          
+            
+          
         
       
         
@@ -93,43 +134,12 @@
       
         
       
-        
-          <a class="sidebar-nav-item active" href="/_pages/uebungen/">Übungen</a>
-          
-            
-          
-            
-          
-            
-          
-            
-              <a class="sidebar-nav-subitem active" href="/_pages/einfuehrung/"> &nbsp; 1 - Einführung in den OS X Terminal</a>
-            
-          
-            
-              <a class="sidebar-nav-subitem active" href="/_pages/befehle/"> &nbsp; 2 - Wichtigste Befehle</a>
-            
-          
-            
-              <a class="sidebar-nav-subitem active" href="/_pages/textdatei/"> &nbsp; 3 - Texteditor</a>
-            
-          
-            
-              <a class="sidebar-nav-subitem active" href="/_pages/umbenennen/"> &nbsp; 4 - Dateien effizient umbenennen</a>
-            
-          
-            
-              <a class="sidebar-nav-subitem active" href="/_pages/bildskalierung/"> &nbsp; 5 - Bilder gruppenweise Skalieren</a>
-            
-          
-            
-          
-            
-          
         
       
         
           <a class="sidebar-nav-item" href="/_pages/bonus/">Bonusaufgaben</a>
+          
+            
           
             
           
@@ -165,8 +175,68 @@
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Übungen</h1>
-  <p>uebersicht ueber Uebungen:</p>
+  <h1 class="page-title">Übungsaufgaben</h1>
+  <h2 id="bungsbeispiele-l-sungen-am-seitenende">Übungsbeispiele (Lösungen am Seitenende)</h2>
+
+<h3 id="in-der-ordnerstruktur-navigieren">In der Ordnerstruktur navigieren</h3>
+
+<p>Mit den oben genannten Befehlen solltest du genug wissen, um (mit ein bisschen tüfteln vielleicht), folgendes Abzuarbeiten:
+(Mache ein Finder-Fenster um dort die Kommandozeilen-Befehle mitzuverfolgen, wenn du willst.)</p>
+
+<ul>
+<li>Wechsle in den Ordner <code>/Applications</code></li>
+<li>Schaue dir den Inhalt dieses Ordners an.</li>
+<li>Freiwillige Aufgabe: Maps.app ist die Maps-Applikation auf OSX. Kann man es mit <code>cd ...</code> öffnen? Was heisst das?</li>
+<li>Gehe aus dem Ordner raus in den übergeordneten Ordner.</li>
+<li>Wechsle in den Ordner <code>~/Desktop</code></li>
+<li>Überprüfe dass der aktuelle Pfad /User/<benutzername>/Desktop ist.</li>
+<li>Erstelle einen neuen Ordner mit dem namen <code>test</code></li>
+<li>Erstelle und bearbeite mit <code>nano</code> eine neue Datei namens &#39;testfile&#39; im Ordner. Schreibe deinen Namen darin (oder, wer gerade Lust hat, wieso nicht ein kurzes Gedicht:)?)</li>
+<li>Navigiere nun von deinem aktuellen Ordner (hoffentlich immer noch <code>~/test</code>) zum Order <code>~Downloads</code>. Dies mit einer einzigen Eingabe bitte!</li>
+</ul>
+
+<h2 id="aufgabe-ordner-erstellen">Aufgabe: Ordner erstellen</h2>
+
+<p>Verändere die bestehende Ordnerstruktur wie folgt, indem du Dateien/Ordner löschst und erstellst:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">/User/&lt;benutzername&gt;
+│   datei-001.txt
+│
+├───ordner-1
+│   │   datei-101.txt
+│   │   datei-102.txt
+│   │
+│   ├───unterordner-1
+│   │   datei-111.txt
+│   │   datei-112.txt
+│   │
+│   └───unterordner-2
+│   │   datei-121.txt
+│   │   datei-122.txt
+(Ab hier selber erstellen:)
+├───ordner-2
+│   │   datei-201.txt
+│   │   datei-202.txt
+│   │
+│   ├───unterordner-1
+│   │   datei-211.txt
+</code></pre></div>
+<p>Sobald du fertig bist, gib in den Terminal <code>~/uebungen/check</code> ein und folge den Answeisungen.</p>
+
+<p><a href="/_pages/bildskalierung">weiter zur nächsten Seite</a></p>
+
+<h2 id="l-sungen">Lösungen</h2>
+
+<ul>
+<li>In den Ordner Applications wechseln: <code>cd /Applications</code></li>
+<li>Inhalt anschauen: <code>ls</code></li>
+<li>Freiwillige Aufgabe: Beim Lehrer melden!</li>
+<li>Gehe aus dem Ordner raus in den übergeordneten Ordner: <code>cd ..</code></li>
+<li>Wechsle in den Ordner: <code>cd ~/Desktop</code></li>
+<li>Überprüfe Pfad: <code>pwd</code></li>
+<li>Erstelle Ordner: <code>mkdir test</code> oder <code>mkdir ~/test</code></li>
+<li>Erstellen und bearbeiten: <code>nano testfile</code></li>
+<li>Navigiere nun von deinem aktuellen Ordner (hoffentlich immer noch <code>~/test</code>) zum Order <code>~Downloads</code>. Dies mit einer einzigen Eingabe bitte!</li>
+</ul>
 
 </div>
 

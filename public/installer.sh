@@ -1,6 +1,6 @@
 cd ~;
-wget http://ict-imlee.github.io/public/uebungen.zip -O temp.zip;
-unzip temp.zip;
-rm temp.zip;
+curl -O http://ict-imlee.github.io/public/uebungen.zip;
+unzip uebungen.zip;
+rm uebungen.zip;
 rm -r __MACOSX/;
 chflags hidden ~/uebungen/
