@@ -18,7 +18,7 @@ Er ist praktisch, um schnell Textdateien zu bearbeiten. Mit
 
 Man kann im Editor normal die Pfeiltasten brauchen, um den Cursor zu navigieren und den Text zu bearbeiten. Um zu speichern und zu beenden braucht es spezielle Tastenkürzel:
 * <kbd>ctrl</kbd> + <kbd>O</kbd> speichert die Datei
-* <kbd>ctrl</kbd> + <kbd>X</kbd> beendet nano
+* <kbd>ctrl</kbd> + <kbd>X</kbd> beendet nano. Eventuell muss man noch 'Enter' eingeben, um das Abspeichern von Änderungen zuzustimmen.
 
 Hinweis: <kbd>ctrl</kbd> wird häufig mit dem Zeichen ^ dargestellt. `^X` ist also das gleiche wie <kbd>ctrl</kbd> + <kbd>X</kbd> zu druücken.
 
