@@ -11,34 +11,34 @@ parent: Aufgaben
 
 Um die Aufgaben lösen zu können braucht ihr folgende Befehle. Lest diese Bitte gut durch und stellt Fragen wenn etwas nicht ganz Klar ist.
 
-###### `$ pwd`
+###### `pwd`
 Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
 
-###### `$ ls`
+###### `ls`
 Zeigt die Dateien und Ordner welche im Ordner enthalten sind wo man sich gerade befindet.
 
-###### `$ echo <text>`
+###### `echo <text>`
 Zeigt den Text <text> im Terminal an.
 
-###### `$ cd <ordnerpfad>`
+###### `cd <ordnerpfad>`
 <dateipfad> Ordner wechseln
 
-###### `$ mkdir <ordnername>`
+###### `mkdir <ordnername>`
 Erstellt einen Ordner mit Name <ordnername> im aktuellen Ordner
 
-###### `$ touch <dateiname>`
+###### `touch <dateiname>`
 Erstellt eine leere Datei mit Name <dateiname> im aktuellen Ordner
 
-###### `$ rm <dateiname>`
+###### `rm <dateiname>`
 Löscht die Datei mit Name <dateiname> im aktuellen Ordner
 
-###### `$ rm -r <ordnername>`
+###### `rm -r <ordnername>`
 Löscht den Ordner mit Name <ordnername> im aktuellen Ordner
 
-###### `$ mv <alter dateipfad> <neuer dateipfad>`
+###### `mv <alter dateipfad> <neuer dateipfad>`
 Verschiebt die Datei am Ort <alter dateipfad> an den Ort <neuer dateipfad>
 
-###### `$ man <befehl>`
+###### `man <befehl>`
 Öffnet ein Benutzerhandbuch des Befehles, falls vorhanden.
 
 ###### Allgemeine Tastenkombinationen
