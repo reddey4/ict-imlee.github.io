@@ -26,11 +26,11 @@ dann "terminal" eingeben und <kbd>↵</kbd> drücken.
 
 Nun sollte ein Fenster mit folgendem Textfeld erscheinen:
 
-`user@computer_name:~$`
+`imacXX:~ username$`
 
 Der angezeigte Text beinhaltet folgende Informationen:
-* `user` der eingeloggte Benutzername
-* `computer_name` der name des Benutzten Computers im Netzwerk
+* `username` der eingeloggte Benutzername
+* `imacXX` der name des Benutzten Computers im Netzwerk
 * `~` der momentane Ordner
 * `$` zeigt an, dass man beschränkte Benutzerrechte hat.
 
